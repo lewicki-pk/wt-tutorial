@@ -54,6 +54,5 @@ Wt::WApplication* startApp(const Wt::WEnvironment& env)
 
 int main(int argc, char* argv[])
 {
-    int retValue = WRun(argc, argv, &startApp);
-    return retValue;
+    return WRun(argc, argv, &startApp);
 }
